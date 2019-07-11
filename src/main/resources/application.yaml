@@ -1,0 +1,9 @@
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
